@@ -45,6 +45,7 @@ main {
 
 .introduction-title {
   font-size: 4.5rem;
+  font-weight: bold;
   font-family: cursive-title;
 }
 
@@ -229,7 +230,7 @@ main {
       margin-top: 20px;
      }
 }
-@media only screen and (min-width: 991px) and (max-width: 1200px) {
+@media only screen and (min-width: 1014px) and (max-width: 1200px) {
    .card-circle{
          width:340px;
          height:340px;
@@ -248,6 +249,22 @@ main {
          margin-left:-20px;
          z-index:1;
     }
+}
+
+@media only screen and (max-width: 1014px) {
+  .card-circle{
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  .card-circle:nth-child(2){
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .card-circle:nth-child(3){
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
 }
 
 
