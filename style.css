@@ -48,6 +48,9 @@ main {
   font-weight: bold;
   font-family: cursive-title;
 }
+.introduction-text {
+  font-size: 1.5rem;
+}
 
 
 /*
@@ -253,9 +256,8 @@ main {
 
 @media only screen and (max-width: 1014px) {
   .introduction-title {
-    padding-top:30px;
-    font-size: 3rem;
-    font-weight: normal;
+    padding-top: 30px;
+    font-size: 3.5rem;
   }
   .card-circle{
     margin: auto;
